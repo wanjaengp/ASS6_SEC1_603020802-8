@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThreeFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/imgview3" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Jungkook Jeon"
+        android:textSize="25sp"
+        android:layout_below="@id/imageView3"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btnClickFragThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="GO BACK MY FRAGMENT"/>
+</LinearLayout>
